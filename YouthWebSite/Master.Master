@@ -1,0 +1,19 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="YouthWebSite.Master" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Youth</title>
+    <link rel="icon" type="image/x-ico" href="/logo.ico" />
+    <link href="/CSS/Master.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="headHolder" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <div id="background" runat="server"  clientidmode="static">
+        <div id="nav" runat="server"  clientidmode="static">
+        </div>
+        <asp:ContentPlaceHolder ID="bodyHolder" runat="server"></asp:ContentPlaceHolder>
+    </div>
+</body>
+</html>

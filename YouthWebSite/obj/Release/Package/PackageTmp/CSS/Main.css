@@ -1,0 +1,49 @@
+﻿body {
+    margin:0;
+}
+#background {
+    z-index: -100;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(/resource/background.png);
+}
+#background_mask {
+    padding: 120px 0 0 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.8;
+}
+#comment {
+    width: 380px;
+    height: 1200px;
+    margin: auto;
+    cursor: default;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.comment_content {
+    width: 60px;
+    height: 800px;
+    font-size: 45px;
+    color: white;
+    writing-mode: vertical-lr;
+    opacity: 0;
+}
+#comment_belong {
+    margin:550px 0 0 0;
+    width: 20px;
+    height: 1200px;
+    font-size: 16px;
+    color: white;
+    writing-mode: vertical-lr;
+    opacity:0;
+}
